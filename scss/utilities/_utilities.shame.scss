@@ -2,4 +2,17 @@
   #SHAME.CSS
 \*------------------------------------*/
 
-
+// A special Wrapper Class for the 5th Section OF the Homepage
+  .main-wrapper--5{
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  @media(min-width:1024px){
+    .main-wrapper--5{
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1080px;
+    }
+  }
+  
