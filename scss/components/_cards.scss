@@ -1,0 +1,24 @@
+/* ==============Cards==================== */
+@media(min-width:1024px){
+  .cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+  }
+
+  .card{
+    flex: 1;
+    margin: 0 .5rem
+  }
+}
+
+.card--img{
+  margin-top: 3em;
+}
+
+@media(min-width:1024px){
+  .card--img{
+    margin-top: 0;
+    height: 2rem;
+  }
+}

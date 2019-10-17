@@ -1,0 +1,12 @@
+.img--computer{
+  width: 100%;
+  margin-top: 3em;
+}
+
+@media(min-width:1024px){
+  .img--computer{
+    width: 130%;
+    margin-left: -30rem;
+    overflow: none;
+  }
+}

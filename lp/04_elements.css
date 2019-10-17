@@ -1,0 +1,45 @@
+/* Elements refer to all unclassed HTML tags. Styles in here get applied to specific HTML tags, like headings, links, and lists. This is the last layer where we use type selectors. */
+body{
+  font-family: var(--font-primary);
+  background-color: var(--main-background);
+}
+
+
+/* =========Headings========= */
+h1, h2, h3, h4, h5, h6{
+  color: var(--neutral-color--1);
+}
+
+@media(min-width:1024px){
+  h1, h2, h3, h4, h5, h6{
+    font-size: 2rem;
+  }
+}
+
+p{
+  font-size: 1.125em;
+  color: var(--neutral-color--2);
+}
+
+@media(min-width:1024px){
+  p{
+    font-size: calc(1.125rem * 1.2);
+  }
+}
+
+
+
+/* ===========Links============== */
+a{
+  text-decoration: none;
+  color: var(--neutral-color--1);
+}
+
+@media(min-width:1024px){
+  a{
+    font-size: calc(1.2rem);
+  }
+}
+
+
+

@@ -1,0 +1,31 @@
+/* Settings refer to all your global configurations and variables, like sizes, colors, and fonts. They should be used to aid in your build configuration, and therefore should not contain actual CSS code */
+
+/* =========Font Imports=========== */
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,600&display=swap');
+
+/* ========Global========= */
+:root{
+  /* ========COLORS======= */
+  /* Background Colors */
+  --main-background:#FFFFFF;
+  --footer-background: #F5F6F8;
+
+  /* Primary Colors */
+  --primary-color--1: hsl(171, 66%, 44%);
+  --primary-color--2: hsl(233, 100%, 69%);
+
+  /* Hover State Colors */
+  --primary-hover: #5dccbb;
+  --secondary-hover: #8896ff;
+
+  /* Accent Colors */
+ 
+
+  /* Neutral */
+  --neutral-color--1: hsl(210, 10%, 33%);
+  --neutral-color--2: hsl(201, 11%, 66%);
+
+
+  /* ========FONTS======== */
+  --font-primary: 'Bai Jamjuree', sans-serif;
+}

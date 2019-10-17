@@ -1,0 +1,45 @@
+/* ==============LOGOS SECTION=============== */
+.logos{
+  margin-top: 5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+@media(min-width:1024px){
+  .logos{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media(min-width:1024px){
+  .logos__flex-item{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    flex: 1;
+    overflow: none;
+    /* width: 15%; */
+    /* max-width: 10rem; */
+  }
+}
+
+.logos__flex-item{
+  margin: 4em auto;
+}
+
+.logos__img{
+  display: block;
+  margin: 0 auto;
+}
+
+@media(min-width:1024px){
+  .logos__img{
+    display: block;
+    margin: 0 auto;
+    overflow: none;
+    width: 90%;
+    max-width: 10rem;
+  }
+}

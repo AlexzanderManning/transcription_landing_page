@@ -1,0 +1,15 @@
+.background-image{
+  background: url(/images/bg-header-mobile.png) no-repeat center center fixed, linear-gradient(
+white, #ffffff);
+  background-size: cover;
+  overflow: hidden;
+}
+
+@media (min-width:1024px){
+  .background-image{
+    background: url(/images/bg-header-desktop.png) no-repeat center center fixed, linear-gradient(
+      white, #ffffff);
+    background-size: cover;
+    overflow: none;
+  }
+}

@@ -1,0 +1,15 @@
+.hero__logo{
+  display: block;
+  width: 40%;
+  padding-top: 7em;
+  margin: 0 auto;
+  margin-bottom: 4em;
+}
+
+@media (min-width:1024px){
+  .hero__logo{
+    width: 20%;
+    padding-top: 7em;
+    margin-bottom: 2em;
+  }
+}

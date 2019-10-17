@@ -1,0 +1,13 @@
+/* Objects follow OOCSS (Object Oriented CSS) principles. They are small and reusable pieces with no aesthetics which can be used in UI composition. Examples are wrappers, grids, skins to apply to lists, buttons, inputs, etc. In other words: any pattern that is repeated over your UI is a potential object candidate. */
+/* Containers */
+.main-wrapper{
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+@media (min-width:1024px){
+  .main-wrapper{
+    width: 60%;
+    max-width: 1080px;
+  }
+}
