@@ -1,5 +1,8 @@
+$bg-image: url('../images/bg-header-mobile.png');
+$bg-image--desktop:url('../images/bg-header-desktop.png');
+
 .background-image{
-  background: url(/dist/images/bg-header-mobile.png) no-repeat center center fixed, linear-gradient(
+  background: $bg-image no-repeat center center fixed, linear-gradient(
 white, #ffffff);
   background-size: cover;
   overflow: hidden;
@@ -7,9 +10,12 @@ white, #ffffff);
 
 @media (min-width:1024px){
   .background-image{
-    background: url(/dist/images/bg-header-desktop.png) no-repeat center center fixed, linear-gradient(
+    background: $bg-image--desktop no-repeat center center fixed, linear-gradient(
       white, #ffffff);
     background-size: cover;
     overflow: none;
   }
 }
+
+// url(/dist/images/bg-header-mobile.png)
+// url(/dist/images/bg-header-desktop.png)
